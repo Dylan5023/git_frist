@@ -2,8 +2,7 @@ package git_test;
 
 public class Main {
     public static void main(String[] args) {
-        Hello h = new Hello();
-        h.say();
-        }
-    
-}
+    Hello h = new Hello("hello world");
+    h.say();
+    }
+   }
